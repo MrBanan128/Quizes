@@ -1,5 +1,4 @@
 <script setup>
-    import { defineProps } from 'vue';
     const {quiz} = defineProps(['quiz'])
     
     console.log(quiz);
@@ -17,7 +16,6 @@
 </template>
 
 <style scoped>
-/* CARD */
 
 .card {
   width: 310px;
